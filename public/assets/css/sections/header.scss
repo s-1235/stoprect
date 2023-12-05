@@ -1,0 +1,140 @@
+// Header
+.header {
+  padding-block: 2rem 2.5rem;
+  transition: all 0.2s;
+
+  &.sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    padding-block: 0.5rem;
+
+    .header__inner {
+      padding: 0.5rem 1rem;
+    }
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5625rem 2.125rem;
+    border-radius: 1.5rem;
+    border: 1px solid #d5ddfb;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.5px);
+    transition: all 0.2s;
+  }
+
+  &__logo {
+    width: 14rem;
+    display: flex;
+    align-items: center;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .profile-btn {
+    display: none;
+    padding: 1.2rem;
+    border-radius: 1.25rem;
+    background: linear-gradient(90deg, #4481eb 0%, #04befe 100%), #0052f0;
+    box-shadow: 0px 7.444444179534912px 11.911110877990723px 0px
+      rgba(105, 149, 232, 0.32);
+
+    img {
+      pointer-events: none;
+      width: 2rem;
+    }
+  }
+}
+
+.nav {
+  &__inner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  &__link {
+    font-family: var(--manrope);
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.6;
+  }
+}
+
+// 1600px
+@media (max-width: 1600px) {
+  .header {
+    padding-block: 1.5rem 2rem;
+
+    &__inner {
+      padding: 1rem 1.5rem;
+      border-radius: 1rem;
+    }
+
+    &__logo {
+      width: 12rem;
+    }
+  }
+
+  .nav {
+    &__inner {
+      gap: 2rem;
+    }
+
+    &__link {
+      font-size: 1rem;
+    }
+  }
+}
+
+// 1024px
+@media (max-width: 1024px) {
+  .header {
+    &__logo {
+      width: 12.5rem;
+    }
+
+    &__buttons {
+      display: none;
+    }
+
+    .profile-btn {
+      display: block;
+    }
+  }
+
+  .nav {
+    display: none;
+  }
+}
+
+// 540px
+@media (max-width: 540px) {
+  .header {
+    padding-block: 1rem 2.5rem;
+
+    &__inner {
+      padding: 0.75rem;
+    }
+
+    &__logo {
+      width: 10rem;
+    }
+
+    .profile-btn {
+      padding: 1rem;
+
+      img {
+        width: 1.5rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,1430 @@
+@media (min-width: 991.98px) {
+    #cryptoLover,
+    .pricingContents,
+    .dashboard-item,
+    .hero-section,
+    .accuracy-section,
+    #areYouCriptoInsider,
+    .dashboard-section,
+    #pricingTable {
+        transform: scale(0.8);
+    }
+
+    .hero-section::after {
+        transform: scale(1.3);
+    }
+
+    .accuracy-section,
+    #areYouCriptoInsider {
+        margin-top: -250px;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 991.98px) {
+    .hero-section {
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width: 1699px) {
+    .hero-section::after {
+        transform: translate(calc(-50% + -500px), 0) scale(1.3);
+        background-position: center;
+        left: 50%;
+        top: 0;
+    }
+}
+
+@media (max-width: 991.98px) {
+    #cryptoLover .container,
+    .pricingContents .container,
+    .dashboard-item .container,
+    .hero-section .container,
+    .accuracy-section .container,
+    #areYouCriptoInsider .container,
+    .dashboard-section .container,
+    #pricingTable .container {
+        max-width: 80%;
+    }
+    #cryptoLover,
+    .pricingContents,
+    .dashboard-item,
+    .hero-section,
+    .accuracy-section,
+    #areYouCriptoInsider,
+    .dashboard-section,
+    #pricingTable,
+    .plan-section {
+        padding: 30px 0px !important;
+    }
+}
+
+@media only screen and (max-width: 1699px) {
+    .hero-info h1 {
+        font-size: 77px;
+
+        line-height: 1.3;
+    }
+
+    .hero-section::after {
+        left: -240px;
+    }
+
+    .hand {
+        bottom: 15%;
+    }
+
+    .hero-section {
+        height: 850px;
+    }
+
+    div#home-carousel {
+        margin: 50px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 1599px) {
+    .hero-info h1 {
+        font-size: 66px;
+    }
+
+    .hero-info {
+        width: 100%;
+
+        padding-left: 65px;
+    }
+
+    .hand {
+        bottom: 22%;
+    }
+
+    .hero-section::after {
+        left: -220px;
+    }
+
+    .accuracy-section h4 {
+        font-size: 40px;
+
+        max-width: 1068px;
+
+        margin: 0 auto 30px;
+    }
+
+    .accuracy-section h6 {
+        font-size: 24px;
+    }
+
+    .contact-info ul li {
+        padding: 40px 45px;
+    }
+
+    .contact-info ul {
+        margin: 0 -45px;
+    }
+
+    footer {
+        overflow: hidden;
+    }
+
+    .featured-secton h3 {
+        font-size: 40px;
+
+        max-width: 1068px;
+
+        margin: 0 auto 40px;
+    }
+
+    .crypto-box h3 {
+        font-size: 48px;
+    }
+
+    .crypto-section h2 {
+        font-size: 40px;
+
+        max-width: 1068px;
+
+        margin: 0 auto 0;
+    }
+
+    .aggregator-section::before {
+        width: 360px;
+
+        height: 220px;
+    }
+
+    .coin-laptop-video2 {
+        left: -23%;
+    }
+}
+
+@media only screen and (max-width: 1429px) {
+    .btns-ul {
+        margin: 0;
+    }
+
+    .login-btn {
+        color: #fd4d5d;
+    }
+
+    .login-btn:hover {
+        background: #fd4d5d;
+
+        color: #fff;
+    }
+
+    .sign-btn {
+        background: #fd4d5d;
+
+        color: #fff;
+
+        border: 1px solid #fd4d5d;
+    }
+
+    .sign-btn:hover {
+        background: #fff;
+    }
+
+    header.fixed .login-btn {
+        background: transparent;
+
+        color: #fff;
+    }
+
+    header.fixed .login-btn:hover {
+        background: #fff;
+
+        color: #fd4d5d;
+    }
+
+    header.fixed .sign-btn {
+        background: #fff;
+
+        color: #fd4d5d;
+    }
+
+    .navbar-brand {
+        max-width: 200px;
+
+        width: 100%;
+    }
+
+    .navbar-brand svg {
+        width: 100%;
+
+        height: 100%;
+    }
+
+    .hero-info h1 {
+        font-size: 58px;
+    }
+
+    .round-sphere {
+        width: 150px;
+
+        height: 150px;
+
+        bottom: -17%;
+    }
+
+    .ellipse-owl {
+        width: 180px;
+
+        height: 180px;
+
+        top: -70px;
+
+        right: 40px;
+    }
+
+    .hand {
+        width: 140px;
+    }
+
+    .hero-section {
+        height: 720px;
+    }
+
+    .coin-right-info h4 {
+        font-size: 28px;
+    }
+
+    .coin-left-info h5 {
+        font-size: 22px;
+    }
+
+    .coin-left-info ul li i {
+        font-size: 17px;
+    }
+
+    .coin-laptop-video a {
+        padding: 75px;
+
+        top: -53px;
+
+        left: -1px;
+    }
+
+    .coin-section:before {
+        width: 245.74px;
+
+        height: 222.69px;
+    }
+
+    .coin-right-info ul li {
+        width: 33.33%;
+    }
+
+    .coin-right-info ul li p {
+        width: 130px;
+    }
+
+    div#home-carousel {
+        margin-top: 140px;
+    }
+
+    div#customNav button {
+        width: 55px;
+
+        height: 55px;
+
+        font-size: 21px;
+    }
+
+    .contact-info ul li {
+        padding: 40px 20px;
+    }
+
+    .contact-info ul {
+        margin: 0 -20px;
+    }
+
+    .aggregator-section::before {
+        width: 290px;
+
+        height: 160px;
+
+        bottom: -40px;
+    }
+
+    .coin-laptop-video2 {
+        width: 100%;
+
+        left: 0;
+    }
+
+    .accuracy-chart {
+        width: 610px;
+    }
+
+    .dashboard-section h3 {
+        font-size: 36px;
+    }
+
+    .dashboard-header h4 {
+        font-size: 20px;
+    }
+
+    .dashboard-header {
+        margin-bottom: 15px;
+    }
+
+    .tabel-responsive {
+        overflow: auto;
+    }
+
+    .tabel-main {
+        min-width: 1200px;
+    }
+
+    .accuracy-section h4 {
+        font-size: 34px;
+
+        line-height: 1.6;
+    }
+
+    .accuracy-section {
+        padding-top: 30px;
+    }
+
+    .accuracy-section h6 {
+        font-size: 20px;
+
+        line-height: 1.8;
+    }
+
+    .accuracy-card p {
+        font-size: 18px;
+    }
+
+    .featured-secton h3 {
+        font-size: 36px;
+    }
+
+    .crypto-section {
+        padding-top: 20px;
+    }
+
+    .crypto-box h3 {
+        font-size: 42px;
+
+        margin-bottom: 18px;
+    }
+
+    .crypto-box p {
+        font-size: 22px;
+
+        margin-bottom: 5px;
+    }
+
+    .crypto-box h6 {
+        font-size: 22px;
+    }
+
+    .crypto-box {
+        padding-top: 40px;
+
+        margin-bottom: 60px;
+    }
+
+    .crypto-section h2 {
+        font-size: 32px;
+    }
+
+    .aggregator-section h3 {
+        font-size: 28px;
+    }
+
+    .coin-right-info {
+        margin-top: 40px;
+    }
+
+    .round-sphere {
+        display: none;
+    }
+
+    div#home-carousel {
+        width: 100%;
+    }
+
+    .menu-navs {
+        margin-left: 50px;
+    }
+
+    ul.navbar-nav.btns-ul.ms-auto {
+        margin-left: auto !important;
+    }
+
+    body .container {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .hero-info {
+        margin: 140px 0 0 0;
+
+        padding: 0;
+    }
+    .accuracy-chart {
+        width: 520px;
+    }
+
+    .hero-section::after {
+        background-size: cover;
+
+        background-position: right;
+
+        left: -160px;
+    }
+
+    .menu-navs {
+        margin-left: 70px;
+    }
+
+    .hero-section {
+        height: auto;
+    }
+
+    div#home-carousel {
+        margin-top: 40px;
+
+        left: 0;
+    }
+
+    .round-sphere {
+        bottom: -60px;
+    }
+
+    .coin-laptop-video a {
+        padding: 125px;
+
+        top: -89px;
+    }
+
+    .accuracy-card {
+        padding: 40px 30px;
+    }
+
+    #featured-owl .owl-nav button {
+        width: 60px;
+
+        height: 60px;
+    }
+
+    .crypto-box h3 {
+        font-size: 36px;
+    }
+
+    .crypto-section h2 {
+        font-size: 28px;
+
+        max-width: 758px;
+
+        line-height: 1.7;
+    }
+
+    .aggregator-section h3 {
+        font-size: 26px;
+    }
+
+    .price-box {
+        width: 50%;
+    }
+
+    .contact-info ul li a p {
+        font-size: 14px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+
+    .coin-laptop-video2 {
+        left: -50%;
+    }
+
+    .dashboard-section:after {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .ham {
+        cursor: pointer;
+
+        -webkit-tap-highlight-color: transparent;
+
+        transition: transform 400ms;
+
+        -moz-user-select: none;
+
+        -webkit-user-select: none;
+
+        -ms-user-select: none;
+
+        user-select: none;
+    }
+
+    .hamRotate.active {
+        transform: rotate(45deg);
+    }
+
+    .hamRotate180.active {
+        transform: rotate(180deg);
+    }
+
+    .line {
+        fill: none;
+
+        transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+
+        stroke: #fd4d5d;
+
+        stroke-width: 5.5;
+
+        stroke-linecap: round;
+    }
+
+    header.fixed .line {
+        stroke: #fff;
+    }
+
+    .ham7 .top {
+        stroke-dasharray: 40 82;
+    }
+
+    .ham7 .middle {
+        stroke-dasharray: 40 111;
+    }
+
+    .ham7 .bottom {
+        stroke-dasharray: 40 161;
+    }
+
+    .ham7.active .top {
+        stroke-dasharray: 17 82;
+
+        stroke-dashoffset: -62px;
+    }
+
+    .ham7.active .middle {
+        stroke-dashoffset: 23px;
+    }
+
+    .ham7.active .bottom {
+        stroke-dashoffset: -83px;
+    }
+
+    .navbar-toggler-icon {
+        display: block;
+
+        width: 100%;
+
+        height: 100%;
+
+        position: relative;
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
+
+        padding: 0;
+
+        width: 36px;
+
+        height: 36px;
+
+        position: relative;
+
+        z-index: 9999;
+    }
+
+    .navbar-toggler-icon svg.ham {
+        position: absolute;
+
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+
+        left: 50%;
+    }
+
+    .navbar-toggler-icon svg.ham.hamRotate.active {
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-collapse {
+        position: fixed;
+
+        top: 0;
+
+        right: 0;
+
+        width: 100%;
+
+        height: 100%;
+
+        overflow: auto;
+
+        background: #fff;
+
+        z-index: 99;
+
+        padding: 100px 15px 20px;
+
+        max-width: 320px;
+
+        display: block !important;
+
+        transform: translateX(100%);
+
+        transition: all 0.5s;
+
+        box-shadow: inset 0px 0px 0 6px white, inset 0px 0px 0 8px #fd4d5d;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #fd4d5d;
+
+        margin: 0;
+
+        text-align: center;
+    }
+
+    .menu-navs {
+        margin: 0;
+    }
+
+    .sign-btn {
+        margin: 0;
+    }
+
+    .navbar-collapse ul {
+        max-width: 350px;
+
+        width: 100%;
+
+        margin: 0 auto;
+
+        text-align: center;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link:after {
+        background: #fd4d5d;
+
+        left: 50%;
+
+        transform: translateX(-50%);
+    }
+
+    .navbar-expand-lg .navbar-nav li {
+        margin: 10px 0;
+    }
+
+    .login-btn {
+        border: 1px solid #fd4d5d;
+    }
+
+    .navbar-collapse.show {
+        transform: translateX(0);
+
+        box-shadow: -10px 0px 90px 0px rgb(7 17 56 / 15%), inset 0px 0px 0 6px white,
+            inset 0px 0px 0 8px #fd4d5d;
+
+        transition: all 0.5s;
+    }
+
+    .show-menu header.fixed .line {
+        stroke: #fc4d5d;
+    }
+
+    header.fixed .login-btn {
+        color: #fd4d5d;
+    }
+
+    header.fixed .login-btn:hover {
+        background: #fd4d5d;
+
+        color: #fff;
+    }
+
+    header.fixed .sign-btn {
+        background: #fd4d5d;
+
+        color: #fff;
+    }
+
+    header.fixed .sign-btn:hover {
+        background: transparent;
+
+        color: #fd4d5d;
+    }
+
+    .btn-red {
+        padding: 12px 26px;
+    }
+
+    .coin-laptop-video a {
+        padding: 95px;
+
+        top: -70px;
+    }
+
+    .dashboard-section h3 {
+        font-size: 32px;
+
+        line-height: 56px;
+    }
+
+    .dashboard-header h4 {
+        font-size: 18px;
+    }
+
+    .custom-pills .nav-link {
+        font-size: 16px;
+
+        padding: 12px 18px;
+    }
+
+    .tabel-main tbody tr td {
+        font-size: 15px;
+    }
+
+    .tabel-coin-wrap p {
+        font-size: 15px;
+    }
+
+    .btn-buy {
+        font-size: 15px;
+    }
+
+    .btn-sell {
+        font-size: 15px;
+    }
+
+    .tag {
+        font-size: 15px;
+    }
+
+    .accuracy-section h4 {
+        font-size: 28px;
+
+        margin-bottom: 15px;
+    }
+
+    .accuracy-section h6 {
+        font-size: 18px;
+
+        margin-bottom: 40px;
+    }
+
+    .accuracy-card {
+        margin-bottom: 20px;
+    }
+
+    .accuracy-section {
+        padding-bottom: 20px;
+    }
+
+    .featured-secton h3 {
+        font-size: 28px;
+
+        line-height: 1.6;
+    }
+
+    .crypto-box h3 {
+        font-size: 28px;
+
+        line-height: 1.6;
+
+        margin-bottom: 15px;
+    }
+
+    .crypto-box p {
+        font-size: 20px;
+
+        line-height: 1.8;
+    }
+
+    .crypto-box h6 {
+        font-size: 20px;
+
+        margin-bottom: 25px;
+    }
+
+    .crypto-box {
+        padding-top: 30px;
+
+        margin-bottom: 40px;
+    }
+
+    .crypto-section {
+        padding-bottom: 40px;
+    }
+
+    .crypto-section h2 {
+        font-size: 26px;
+
+        max-width: 576px;
+    }
+
+    .price-pills {
+        margin-bottom: 30px;
+    }
+
+    .price-box {
+        padding: 25px 25px 45px 25px;
+    }
+
+    .price-box h5 {
+        font-size: 24px;
+    }
+
+    .price-pills .nav-link {
+        font-size: 15px;
+
+        padding: 8px 22px;
+    }
+
+    .aggregator-body ul li p {
+        font-size: 15px;
+    }
+
+    .aggregator-section::before {
+        width: 210px;
+
+        height: 130px;
+    }
+
+    .aggregator-section h3 {
+        font-size: 24px;
+
+        line-height: 1.6;
+    }
+
+    .copyright-wrap {
+        flex-wrap: wrap;
+
+        margin-bottom: 45px;
+    }
+
+    .social-icons {
+        margin-bottom: 30px;
+    }
+
+    .copyright {
+        order: -1;
+
+        margin-left: auto;
+    }
+
+    .language-location {
+        order: -1;
+    }
+
+    .copyright-close {
+        margin-top: 30px;
+
+        left: 0;
+
+        width: 100%;
+
+        text-align: center;
+
+        display: flex;
+    }
+
+    .copyright-close i {
+        margin-left: auto;
+    }
+
+    .copyright-close strong {
+        margin-left: 5px;
+    }
+
+    .contact-info {
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        margin: 0;
+
+        padding: 25px 0 25px;
+    }
+
+    .contact-info ul {
+        width: 100%;
+
+        justify-content: center;
+    }
+
+    .contact-info ul li {
+        padding: 10px;
+
+        width: 50%;
+    }
+
+    .coin-section:after {
+        width: 100%;
+
+        height: 660px;
+    }
+
+    .col-xl-60 {
+        width: 100%;
+    }
+
+    .col-xl-62 {
+        width: 100%;
+    }
+
+    .coin-laptop-video2 {
+        width: 100%;
+
+        left: 0;
+
+        margin-top: 50px;
+    }
+
+    .accuracy-chart {
+        width: 105%;
+
+        left: -6%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .hero-section::after {
+        left: 0px;
+    }
+
+    .hero-info h1 {
+        font-size: 42px;
+    }
+
+    .ellipse-owl {
+        width: 140px;
+
+        height: 140px;
+    }
+
+    .round-sphere {
+        bottom: -90px;
+    }
+
+    .coin-left-info h5 {
+        font-size: 20px;
+
+        line-height: 1.7;
+
+        margin-bottom: 15px;
+    }
+
+    .coin-left-info {
+        max-width: 100%;
+    }
+
+    .coin-left-info p {
+        margin-bottom: 19px;
+    }
+
+    .coin-left-info ul li {
+        margin-bottom: 25px;
+    }
+
+    .coin-right-info h4 {
+        font-size: 26px;
+
+        line-height: 1.5;
+    }
+
+    .coin-laptop-video a {
+        padding: 70px;
+
+        top: -52px;
+    }
+
+    .coin-laptop-video {
+        margin-top: 50px;
+    }
+
+    .dashboard-header {
+        flex-wrap: wrap;
+    }
+
+    .custom-pills {
+        margin: 10px 0 0;
+    }
+
+    .custom-pills .nav-link {
+        margin: 0 14px 0 0;
+    }
+
+    .aggregator-section::before {
+        width: 150px;
+    }
+
+    .aggregator-section h3 {
+        font-size: 20px;
+    }
+
+    .featured-secton {
+        padding-bottom: 80px;
+    }
+
+    .featured-owl-span {
+        top: 15%;
+
+        width: 81%;
+    }
+
+    .price-box {
+        width: 100%;
+
+        height: auto !important;
+    }
+
+    .price-box-wrap {
+        flex-wrap: wrap;
+    }
+
+    .btn-gradient {
+        margin: 30px 0 0 0 !important;
+
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .hero-info h1 {
+        font-size: 38px;
+    }
+
+    div#customNav {
+        justify-content: flex-start;
+
+        margin-left: 30px;
+    }
+
+    .coin-right-info ul {
+        flex-wrap: wrap;
+    }
+
+    .coin-right-info ul li {
+        width: 100%;
+    }
+
+    .coin-laptop-video a {
+        padding: 58px;
+
+        top: -42px;
+    }
+
+    .coin-laptop-video a:after {
+        width: 60px;
+
+        height: 60px;
+    }
+
+    .coin-section:before {
+        width: 175.74px;
+
+        height: 162.69px;
+
+        bottom: 0;
+    }
+
+    .accuracy-section h4 {
+        font-size: 24px;
+    }
+
+    .accuracy-section h6 {
+        font-size: 16px;
+
+        margin-bottom: 30px;
+    }
+
+    .accuracy-card {
+        padding: 25px;
+    }
+
+    .crypto-box h3 {
+        font-size: 24px;
+
+        margin-bottom: 10px;
+    }
+
+    .crypto-box p {
+        font-size: 18px;
+
+        margin-bottom: 0;
+    }
+
+    .crypto-section h2 {
+        font-size: 20px;
+    }
+
+    .aggregator-section h3 {
+        font-size: 18px;
+
+        margin-bottom: 30px;
+    }
+
+    .aggregator-section {
+        padding: 40px 0;
+    }
+
+    .price-box-wrap {
+        flex-wrap: wrap;
+    }
+
+    .price-box {
+        width: 100%;
+
+        margin: 8px 0;
+    }
+
+    .aggregator-body .btn-gradient {
+        margin-top: 20px;
+    }
+
+    .aggregator-section::after {
+        height: 800px;
+    }
+
+    .aggregator-section::before {
+        bottom: 0;
+    }
+
+    .client-box {
+        margin: 50px auto;
+
+        width: 150px;
+
+        height: 150px;
+    }
+
+    #featured-owl .owl-nav button.owl-next {
+        right: -20px;
+    }
+
+    #featured-owl .owl-nav button.owl-prev {
+        left: -20px;
+    }
+
+    .featured-owl-span {
+        width: 70%;
+
+        border-radius: 16px;
+
+        top: 10%;
+    }
+
+    .hand {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .ellipse-owl {
+        width: 75px;
+
+        right: 0;
+
+        height: 75px;
+
+        z-index: -1;
+
+        top: -40px;
+    }
+
+    .round-sphere {
+        width: 100px;
+
+        height: 100px;
+
+        bottom: -80px;
+    }
+
+    div#customNav button {
+        width: 45px;
+
+        height: 45px;
+
+        font-size: 17px;
+    }
+
+    .hero-info h1 {
+        font-size: 31px;
+    }
+
+    .coin-left-info h5 {
+        font-size: 18px;
+    }
+
+    .coin-left-info p {
+        font-size: 16px;
+
+        max-width: 100%;
+    }
+
+    .coin-left-info ul li span {
+        height: 40px;
+
+        width: 40px;
+
+        min-width: 40px;
+    }
+
+    .coin-left-info ul li span svg {
+        width: 100%;
+
+        height: 100%;
+    }
+
+    .coin-left-info ul li {
+        align-items: flex-start;
+
+        margin-bottom: 20px;
+    }
+
+    .coin-left-info ul li i {
+        font-size: 15px;
+    }
+
+    .coin-right-info h4 {
+        font-size: 20px;
+
+        margin-bottom: 15px;
+    }
+
+    .coin-laptop-video a {
+        padding: 47px;
+
+        top: -34px;
+    }
+
+    .dashboard-section h3 {
+        font-size: 26px;
+
+        line-height: 1.5;
+
+        margin-bottom: 30px;
+    }
+
+    .custom-pills .nav-link {
+        font-size: 14px;
+    }
+
+    .tabel-main tbody tr td {
+        font-size: 14px;
+    }
+
+    .accuracy-section h4 {
+        font-size: 22px;
+    }
+
+    .accuracy-card p {
+        font-size: 15px;
+    }
+
+    .featured-secton h3 {
+        font-size: 26px;
+
+        margin-bottom: 30px;
+    }
+
+    #featured-owl .owl-nav button {
+        width: 50px;
+
+        height: 50px;
+
+        font-size: 18px !important;
+    }
+
+    .crypto-box p {
+        font-size: 16px;
+    }
+
+    .crypto-box h6 {
+        font-size: 18px;
+    }
+
+    .crypto-box .btn-red {
+        padding: 12px 30px;
+    }
+
+    .crypto-box:after {
+        height: 90%;
+    }
+
+    .crypto-section h2 {
+        font-size: 18px;
+    }
+
+    .price-box h5 span {
+        display: block;
+
+        line-height: initial;
+
+        margin-top: 9px;
+    }
+
+    .price-box h5 {
+        line-height: initial;
+
+        margin-bottom: 22px;
+    }
+
+    .language-location {
+        width: 100%;
+
+        justify-content: center;
+    }
+
+    .copyright {
+        width: 100%;
+
+        order: 1;
+
+        text-align: center;
+
+        margin-top: 15px;
+    }
+
+    .copyright-close {
+        font-size: 12px;
+
+        align-items: center;
+
+        margin-top: 15px;
+    }
+
+    .contact-info ul li {
+        width: 100%;
+
+        padding: 8px 0;
+    }
+
+    .contact-info ul {
+        flex-wrap: wrap;
+
+        margin: 0;
+    }
+
+    .contact-info ul li a {
+        justify-content: center;
+    }
+
+    .btn-red {
+        padding: 10px 16px;
+
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 349px) {
+    .hero-info h1 {
+        max-width: 160px;
+
+        font-size: 25px;
+
+        width: 100%;
+    }
+
+    .hero-info h1 br {
+        display: none;
+    }
+
+    .coin-left-info h6 {
+        font-size: 17px;
+    }
+
+    .dashboard-item {
+        padding: 20px;
+
+        border-radius: 18px;
+    }
+
+    .custom-pills .nav-link {
+        font-size: 11px;
+    }
+
+    .dashboard-header h4 {
+        font-size: 16px;
+    }
+
+    .crypto-box h3 {
+        font-size: 20px;
+    }
+
+    .copyright-close {
+        font-size: 10px;
+
+        padding: 8px 9px 8px 14px;
+    }
+}

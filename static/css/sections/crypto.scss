@@ -1,0 +1,165 @@
+.crypto {
+  overflow: hidden;
+  position: relative;
+  padding-top: 3.5rem;
+  padding-bottom: 6rem;
+
+  &__bg {
+    img {
+      position: absolute;
+      z-index: -1;
+      max-width: 40rem;
+
+      &:first-child {
+        top: 30%;
+        left: -15rem;
+      }
+
+      &:last-child {
+        top: 0;
+        right: -15rem;
+      }
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2.5rem;
+    column-gap: 4rem;
+  }
+
+  &__item {
+    width: calc(50% - 2rem);
+    position: relative;
+    padding: 0.44rem 0.64rem 2rem;
+    border-radius: 1.7rem;
+    background: #091227;
+    box-shadow: 33.714019775390625px 33.714019775390625px 63.21377944946289px
+        0px rgba(0, 0, 0, 0.25),
+      8.428504943847656px 8.428504943847656px 21.071260452270508px 0px
+        rgba(0, 0, 0, 0.35);
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 1rem;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 6.16338rem;
+      height: 0.13169rem;
+      border-radius: 2.63394rem;
+      background: #fff;
+    }
+
+    &-shadows {
+      span {
+        position: absolute;
+        width: 35%;
+
+        &:first-child {
+          top: 0;
+          left: 96%;
+        }
+
+        &:last-child {
+          top: 96%;
+          left: 0;
+        }
+      }
+    }
+
+    &-chart {
+      overflow: hidden;
+      position: relative;
+      border-radius: 1.5rem;
+    }
+  }
+}
+
+// 1600px
+@media (max-width: 1600px) {
+  .crypto {
+    padding-top: 2.5rem;
+
+    &__list {
+      row-gap: 2rem;
+      column-gap: 3rem;
+    }
+
+    &__item {
+      width: calc(50% - 1.5rem);
+      padding: 0.4rem 0.6rem 1.5rem;
+
+      &::before {
+        bottom: 0.75rem;
+      }
+    }
+  }
+}
+
+// 1024px
+@media (max-width: 1024px) {
+  .crypto {
+    &__list {
+      column-gap: 3rem;
+    }
+
+    &__item {
+      width: calc(50% - 1.5rem);
+    }
+  }
+}
+
+// 840px
+@media (max-width: 840px) {
+  .crypto {
+    &__bg {
+      display: none;
+    }
+
+    &__list {
+      column-gap: 0;
+    }
+
+    &__item {
+      width: 100%;
+
+      &:nth-child(n + 3) {
+        display: none;
+      }
+    }
+  }
+}
+
+// 540px
+@media (max-width: 540px) {
+  .crypto {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+
+    &__list {
+      row-gap: 1.5rem;
+    }
+
+    &__item {
+      padding: 0.26rem 0.38rem 1.2rem;
+      border-radius: 1rem;
+      box-shadow: 20.228412628173828px 20.228412628173828px 37.92826843261719px
+          0px rgba(0, 0, 0, 0.25),
+        5.057103157043457px 5.057103157043457px 12.642756462097168px 0px
+          rgba(0, 0, 0, 0.35);
+
+      &::before {
+        bottom: 0.6rem;
+        width: 3.698rem;
+        height: 0.079rem;
+        border-radius: 1.58038rem;
+      }
+
+      &-chart {
+        border-radius: 0.8rem;
+      }
+    }
+  }
+}

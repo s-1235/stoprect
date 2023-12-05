@@ -1,0 +1,290 @@
+.footer {
+  padding-block: 3.5rem;
+
+  &__block {
+    padding-block: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+
+    &:first-child {
+      border-bottom: 1px solid #d0d7e2;
+    }
+
+    &:last-child {
+      padding-block: 0;
+    }
+  }
+
+  &__logo {
+    width: 14rem;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 1.5rem;
+
+    .button {
+      &.link {
+        color: var(--grey);
+      }
+    }
+  }
+
+  &__newsletter {
+    max-width: 18rem;
+
+    h5 {
+      margin-bottom: 1.8rem;
+      color: #1d223c;
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 1.25;
+    }
+
+    .input__box {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      border-bottom: 1px solid #bfbfbf;
+
+      input {
+        color: var(--grey);
+        font-family: var(--dm-sans);
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.6;
+        letter-spacing: -0.03125rem;
+      }
+
+      button {
+        color: #fff;
+        padding: 1rem;
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
+        background: linear-gradient(90deg, #4481eb 0%, #04befe 100%),
+          linear-gradient(0deg, #3b6bfa 0%, #3b6bfa 100%), #2a85ff;
+
+        &:hover {
+          color: #0052f0;
+          outline: 2px solid #0052f0;
+          background: linear-gradient(
+            to right,
+            rgba(69, 130, 235, 0.1),
+            rgba(4, 190, 254, 0.1)
+          );
+        }
+      }
+    }
+  }
+
+  &__nav {
+    display: flex;
+    gap: 8.5rem;
+
+    &-links-container {
+      display: flex;
+      flex-direction: column;
+      gap: 0.12rem;
+    }
+
+    h6 {
+      margin-bottom: 1.12rem;
+      color: var(--blue);
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.25;
+    }
+
+    &-link {
+      position: relative;
+      padding-block: 0.5rem;
+      color: var(--black);
+      font-family: var(--dm-sans);
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 1.5;
+
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background: var(--black);
+        transition: width 0.2s ease-in-out;
+      }
+
+      &:hover {
+        &::before {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  &__copyright {
+    display: flex;
+    gap: 1.5rem;
+
+    a {
+      color: var(--grey);
+      font-family: var(--dm-sans);
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 1.5;
+    }
+  }
+
+  &__social {
+    display: flex;
+    gap: 2.5rem;
+
+    a {
+      img {
+        max-width: 24px;
+      }
+    }
+  }
+}
+
+// 1600px
+@media (max-width: 1600px) {
+  .footer {
+    padding-block: 2.5rem;
+
+    &__block {
+      padding-block: 2rem;
+    }
+
+    &__logo {
+      width: 12rem;
+    }
+
+    &__buttons {
+      gap: 1.25rem;
+    }
+
+    &__newsletter {
+      max-width: 15rem;
+
+      h5 {
+        margin-bottom: 1.5rem;
+        font-size: 1.25rem;
+      }
+
+      .input__box {
+        input {
+          font-size: 0.875rem;
+        }
+
+        button {
+          padding: 0.75rem;
+        }
+      }
+    }
+
+    &__nav {
+      gap: 7.5rem;
+
+      h6 {
+        margin-bottom: 1rem;
+        font-size: 0.875rem;
+      }
+
+      &-link {
+        padding-block: 0.3rem;
+        font-size: 0.875rem;
+      }
+    }
+
+    &__copyright {
+      gap: 1.25rem;
+
+      a {
+        font-size: 0.875rem;
+      }
+    }
+
+    &__social {
+      gap: 2rem;
+
+      a {
+        img {
+          max-width: 20px;
+        }
+      }
+    }
+  }
+}
+
+// 1024px
+@media (max-width: 1024px) {
+  .footer {
+    &__block {
+      padding-block: 1.5rem;
+    }
+
+    &__nav {
+      gap: 5rem;
+    }
+  }
+}
+
+// 840px
+@media (max-width: 840px) {
+  .footer {
+    &__block {
+      padding-block: 0 1.5rem;
+      flex-direction: column;
+      align-items: center;
+      justify-content: unset;
+
+      &:first-child {
+        border-bottom: 0;
+      }
+    }
+
+    &__logo {
+      margin-bottom: 0.5rem;
+    }
+
+    &__buttons {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    &__newsletter {
+      width: 100%;
+      margin-bottom: 1.5rem;
+      max-width: 40rem;
+
+      h5 {
+        margin-bottom: 0.5rem;
+      }
+    }
+
+    &__nav {
+      width: 100%;
+      max-width: 40rem;
+      justify-content: space-between;
+      gap: 3.5rem;
+    }
+
+    &__copyright {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+// 540px
+@media (max-width: 540px) {
+  .footer {
+    padding-block: 2rem;
+
+    &__newsletter {
+      h5 {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Shadows">
+<g id="Top Right Shadow" filter="url(#filter0_f_1_560)">
+<path d="M215.287 215.236L4.57422 4.52344V215.236H215.287Z" fill="url(#paint0_linear_1_560)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_1_560" x="0.359966" y="0.309185" width="219.141" height="219.141" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2.10713" result="effect1_foregroundBlur_1_560"/>
+</filter>
+<linearGradient id="paint0_linear_1_560" x1="8.34546" y1="9.75463" x2="120.675" y2="122.432" gradientUnits="userSpaceOnUse">
+<stop stop-opacity="0.35"/>
+<stop offset="0.796875" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

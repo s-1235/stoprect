@@ -1,0 +1,167 @@
+.intro {
+  &__inner {
+    text-align: center;
+
+    h1 {
+      color: #24292e;
+      font-family: var(--space-grotesk);
+      font-size: 6.75275rem;
+      font-weight: 700;
+      line-height: 6.69606rem;
+      letter-spacing: -0.25538rem;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      white-space: nowrap;
+      color: #017aff;
+      font-family: var(--space-grotesk);
+      font-size: 6.52581rem;
+      font-weight: 700;
+      line-height: 6.69606rem;
+      letter-spacing: -0.25538rem;
+
+      img {
+        width: 5.9rem;
+        height: 5.9rem;
+      }
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: #24292e;
+      font-size: 1.25rem;
+      line-height: 2.25875rem;
+    }
+
+    .button {
+      margin-inline: auto;
+      padding: 1.13rem 1.5rem;
+    }
+  }
+}
+
+// 1600px
+@media (max-width: 1600px) {
+  .intro {
+    h1 {
+      font-size: 5rem;
+      line-height: 1;
+    }
+
+    h2 {
+      font-size: 4.8rem;
+      line-height: 1;
+
+      img {
+        width: 4.5rem;
+        height: 4.5rem;
+      }
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 2rem;
+    }
+
+    .button {
+      padding: 0.75rem 1rem;
+    }
+  }
+}
+
+// 1180px
+@media (max-width: 1180px) {
+  .intro {
+    &__inner {
+      h1 {
+        font-size: 5.75275rem;
+        line-height: 5.69606rem;
+      }
+
+      h2 {
+        font-size: 5.52581rem;
+        line-height: 5.69606rem;
+
+        img {
+          width: 5rem;
+          height: 5rem;
+        }
+      }
+    }
+  }
+}
+
+// 840px
+@media (max-width: 840px) {
+  .intro {
+    &__inner {
+      h1 {
+        font-size: 4rem;
+        line-height: 1;
+      }
+
+      h2 {
+        font-size: 3.4rem;
+        line-height: 4rem;
+
+        img {
+          width: 4rem;
+          height: 4rem;
+        }
+      }
+
+      p {
+        font-size: 1rem;
+        line-height: 2rem;
+      }
+    }
+  }
+}
+
+// 540px
+@media (max-width: 540px) {
+  .intro {
+    &__inner {
+      h1 {
+        font-size: 2.55106rem;
+        line-height: 2.52963rem;
+        letter-spacing: -0.09644rem;
+      }
+
+      h2 {
+        margin-bottom: 1rem;
+        font-size: 2.46531rem;
+        line-height: 2.52963rem;
+        letter-spacing: -0.09644rem;
+
+        img {
+          width: 2.22906rem;
+          height: 2.22906rem;
+        }
+      }
+
+      p {
+        font-size: 0.875rem;
+        line-height: 1.32206rem;
+      }
+    }
+  }
+}
+
+// 440px
+@media (max-width: 440px) {
+  .intro {
+    &__inner {
+      h2 {
+        margin-bottom: 0.5rem;
+        font-size: 2rem;
+        line-height: 2.2rem;
+      }
+
+      .button {
+        padding: 0.84rem 1.12rem;
+      }
+    }
+  }
+}

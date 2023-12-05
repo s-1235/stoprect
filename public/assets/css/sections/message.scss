@@ -1,0 +1,64 @@
+.message {
+  margin-bottom: 5rem;
+
+  &__inner {
+    padding: 1.3125rem 1.875rem;
+    border-radius: 1.5625rem;
+    border: 1px solid #13399a;
+    background: #fff;
+    box-shadow: 20px 17px 0px 0px rgba(19, 57, 154, 0.08);
+  }
+
+  &__text {
+    color: #017aff;
+    text-align: center;
+    font-family: var(--space-grotesk);
+    font-size: 2.9375rem;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+}
+
+// 1600px
+@media (max-width: 1600px) {
+  .message {
+    &__text {
+      font-size: 2.2rem;
+    }
+  }
+}
+
+// 1024px
+@media (max-width: 1024px) {
+  .message {
+    &__text {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+// 840px
+@media (max-width: 840px) {
+  .message {
+    margin-bottom: 3rem;
+
+    &__inner {
+      padding: 1rem 1.5rem;
+      border-radius: 1.25rem;
+      box-shadow: 10px 7px 0px 0px rgba(19, 57, 154, 0.08);
+    }
+
+    &__text {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+// 700px
+@media (max-width: 700px) {
+  .message {
+    &__text {
+      font-size: 1.25rem;
+    }
+  }
+}

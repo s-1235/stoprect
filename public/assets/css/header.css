@@ -1,0 +1,97 @@
+.cta {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    text-align: center;
+    font-size: 37px;
+    line-height: 60px;
+    /* identical to box height, or 161% */
+    color: #de106d;
+    margin-bottom: 15px;
+}
+
+.btn {
+    border-radius: 10px;
+}
+.table-responsive .table {
+    border-radius: 15px;
+}
+@font-face {
+    /*font-family: 'panton';*/
+    /*src: url(fonts/Panton-BlackCaps.otf);*/
+}
+body {
+    font-family: 'panton';
+    /*Macan,Helvetica Neue,Helvetica,Arial,sans-serif;*/
+    /*//panton*/
+    width: 100%;
+}
+.btn-primary,
+.bg-primary {
+    background-color: #627eea !important;
+}
+.faded-success {
+    background-color: #17c91e;
+}
+.super-faded-loss {
+    background-color: #f0bab6;
+}
+.super-faded-success {
+    background-color: #93f797;
+}
+.display-5 {
+    font-size: 30px;
+}
+.text-grey {
+    color: #9d9a9a;
+}
+th,
+td {
+    vertical-align: middle !important;
+}
+.cust-check {
+    width: 300px;
+    display: inline-block;
+}
+.form-check-input {
+    margin-top: 15px;
+}
+.form-check-label p {
+    font-size: 18px;
+}
+
+.login-btn {
+    font-family: 'panton';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.004em;
+    color: #ffffff;
+    padding: 8px 24px;
+    border-radius: 4rem;
+    border: 1px solid white;
+    transition: all 0.5s;
+    background: transparent;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+}
+.login-btn:hover {
+    background: #fff;
+    color: #fd4d5d;
+    text-decoration: none;
+}
+.navbar-toggler {
+    background-color: #dc3545;
+    margin-right: 15px;
+}
+
+@media (max-width: 767.98px) {
+    .btn {
+        padding: 5px;
+        font-size: 12px;
+    }
+    .my-row-tabs > .col-3 {
+        padding: 0 5px;
+    }
+}
